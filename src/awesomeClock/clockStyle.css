@@ -1,0 +1,37 @@
+#baseCircle {
+    -fx-fill: #E56060;
+}
+
+#clockFace {
+    -fx-effect: innershadow(three-pass-box, #ddd6c9, 3, 1.0, 3, 3);
+    -fx-fill: #FFFDE8;
+}
+
+#centerPoint {
+    -fx-fill: #FFFDE8;
+}
+
+#ticks {
+    -fx-effect: dropshadow(three-pass-box, #ddd6c9, 0.2, 1.0, 1.2, 1.2);
+}
+
+#secondsArrow {
+    -fx-stroke: #E56060;
+    -fx-stroke-width: 3;
+    -fx-translate-x: 100;
+    -fx-translate-y: 100;
+}
+
+#minutesArrow {
+    -fx-stroke: #232118;
+    -fx-stroke-width: 7;
+    -fx-translate-x: 100;
+    -fx-translate-y: 100;
+}
+
+#hoursArrow {
+    -fx-stroke: #232118;
+    -fx-stroke-width: 14;
+    -fx-translate-x: 100;
+    -fx-translate-y: 100;
+}
